@@ -1,0 +1,20 @@
+{
+  "name": "forkify-raquel",
+  "version": "1.0.0",
+  "description": "Aplicacion de Recetas",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html -dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "Raquel Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3"
+  }
+}
